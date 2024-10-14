@@ -198,7 +198,7 @@ function Main() {
                   alt="news"
                   width={500}
                   height={300}
-                  className="object-cover"
+                  className="object-cover "
                 />
               </div>
               <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
