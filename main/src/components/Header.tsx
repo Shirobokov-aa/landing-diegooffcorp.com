@@ -1,6 +1,6 @@
 "use client";
 
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 // import { Mail } from "lucide-react";
 // import { Phone } from "lucide-react";
@@ -15,9 +15,11 @@ import {
 function Header() {
   return (
     <header className="relative z-20">
-      <div className=" absolute left-1/2 transform -translate-x-1/2 z-10 w-full flex justify-between pl-6 text-right">
-        <div className="logo w-[100px] h-[100px] bg-[#ff2c2c]"></div>
-        <div className="flex items-center w-full max-w-[209px] lg:max-w-4xl p-2  bg-[#ff2c2c] justify-center lg:justify-end">
+      <div className=" absolute left-1/2 transform -translate-x-1/2 z-10 w-full h-[100px] flex items-center justify-between pl-6 text-right">
+        <div className="logo">
+          <Image src="/img/logo.svg" alt="logo" width={135} height={45} />
+        </div>
+        <div className="flex items-center w-full max-w-[209px] lg:max-w-4xl p-10  bg-[#ff2c2c] justify-center lg:justify-end">
           <ul className="lg:flex lg:space-x-4 hidden text-right">
             <li className="text-[white] font-bold leading-[140%] tracking-[3px] uppercase hover:text-[black] px-[50px]">
               <Link href="/">Home</Link>

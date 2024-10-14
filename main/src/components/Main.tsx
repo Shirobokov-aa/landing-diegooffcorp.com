@@ -19,8 +19,8 @@ function Main() {
               className="object-cover"
             />
           </div>
-          <div className="desck relative max-w-[700px] top-[35%] pl-[200px]">
-            <div className="title text-6xl tracking-[10px] font-bold mb-4 uppercase">
+          <div className="desck relative max-w-[700px] top-[35%] lg:pl-[200px] pl-[50px]">
+            <div className="title md:text-8xl text-2xl tracking-[10px] font-bold mb-4 uppercase">
               World Cargo Services
             </div>
             <div className="subtitle ">
@@ -35,7 +35,7 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="tizer max-w-[1500px] mx-auto px-[50px] flex justify-between items-center pt-[100px] pb-[100px]">
+      <section className="tizer max-w-[1500px] mx-auto px-[50px] flex md:flex-row text-center flex-col justify-between items-center pt-[100px] pb-[100px]">
         <div className="tizer_item max-w-[33%] flex flex-col items-center">
           <div className="title_tizer text-5xl tracking-[3px] font-bold">
             1500000
@@ -44,7 +44,7 @@ function Main() {
             Customs cleared and satisfied clients
           </div>
         </div>
-        <div className="tizer_item max-w-[33%] flex flex-col items-center">
+        <div className="tizer_item max-w-[33%] flex flex-col items-center md:py-0 py-7">
           <div className="title_tizer text-5xl tracking-[3px] font-bold">
             200
           </div>
@@ -58,15 +58,15 @@ function Main() {
         </div>
       </section>
       <section className="banner_tizer ">
-        <div className="banner_tizer_container flex w-full h-[700px]">
-          <div className="relative w-[70%] h-full">
+        <div className="banner_tizer_container flex w-full h-[800px]">
+          <div className="relative lg:w-[70%] w-full h-full">
             <Image src="/img/bg-tizer-1.jpg" alt="banner" fill className="" />
             <div className="absolute inset-0 flex">
-              <div className="line w-[80%] mx-auto h-[2px] bg-[#ff2c2c] mt-52">
-                <div className="title_bg grid grid-cols-3 gap-6 mt-10">
+              <div className="line w-[80%] mx-auto h-[2px] bg-[#ff2c2c] lg:mt-52 mt-10">
+                <div className="title_bg grid lg:grid-cols-3 grid-cols-1 gap-6 mt-10">
                   <div className="bg_item flex">
                     <div className="bg-num text-[#ff2c2c]">01</div>
-                    <div className="bg-title pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
+                    <div className="bg-title pl-2 font-[syne,_sans-serif] lg:text-[19px] text-[16px] leading-[26px] not-italic tracking-[1px]">
                       <span className="font-bold">Reliable</span>
                       <div className="bg-subtitle font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -128,14 +128,14 @@ function Main() {
               </div>
             </div>
           </div>
-          <div className="relative w-[30%] h-full">
+          <div className="relative lg:w-[30%] h-full lg:block hidden">
             <Image src="/img/bg-tizer-2.jpg" alt="banner" fill className="" />
           </div>
         </div>
       </section>
-      <section className="office pt-[150px]">
-        <div className="bg-office maw-w-[1500px] mx-auto px-[50px] relative">
-          <div className="bg-img h-[800px] relative">
+      <section className="office pt-[50px] ">
+        <div className="bg-office maw-w-[1500px] mx-auto lg:px-[50px] px-[0px] relative">
+          <div className="bg-img lg:h-[1000px] h-[500px] relative">
             <Image
               src="/img/bg-office.jpg"
               alt="office"
@@ -143,7 +143,7 @@ function Main() {
               className="object-cover"
             />
             <div className="office-title absolute inset-0 flex flex-col items-center justify-center">
-              <h3 className="text-white text-7xl font-bold uppercase">
+              <h3 className="text-white lg:text-7xl text-3xl font-bold uppercase">
                 Network & Offices
               </h3>
               <Button
@@ -156,8 +156,8 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="news max-w-[1500px] mx-auto px-[50px] pt-[100px] pb-[100px]">
-        <div className=" flex justify-between w-full">
+      <section className="news max-w-[1500px] mx-auto lg:px-[50px] px-4 pt-[50px] pb-[100px]">
+        <div className=" flex lg:flex-row flex-col lg:justify-between items-center w-full">
           <div className="news_left ">
             <div className="news_title font-[syne,_sans-serif] text-[42px] leading-[51px] font-extrabold tracking-[3px] uppercase">
               Latest News
@@ -166,52 +166,80 @@ function Main() {
               <div className="news_subtitle font-[work_sans,_sans-serif] text-[23px] leading-[27px]">
                 Find out what is our expertise
               </div>
-              <div className="news_line w-[50px] mx-auto h-[3px] bg-[#ff2c2c] ml-5"></div>
+              <div className="news_line w-[50px] mx-auto h-[3px] bg-[#ff2c2c] ml-5 xl:block hidden"></div>
             </div>
           </div>
-          <div className="news_right flex">
-            <div className="news-item max-w-[335px] mr-10">
+          <div className="news_right flex lg:flex-row flex-col">
+            <Link href="/news" className="news-item max-w-[335px] mr-10 group">
               <div className="news_img ">
                 <Image
                   src="/img/news-1.jpg"
                   alt="news"
                   width={500}
                   height={300}
-                  className="object-cover"
+                  className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
                 />
               </div>
               <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
                 11 May, 2021
               </div>
-              <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase">
+              <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
                 An innovative service for easy & Fast shipments
               </div>
               <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
                 orci id urna ultricies cursus quis eu augu
               </div>
-            </div>
-            <div className="news-item max-w-[335px] mr-10">
+            </Link>
+            <Link href="/news" className="news-item max-w-[335px] mr-10 group">
               <div className="news_img ">
                 <Image
                   src="/img/news-2.jpg"
                   alt="news"
                   width={500}
                   height={300}
-                  className="object-cover "
+                  className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
                 />
               </div>
               <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
                 11 May, 2021
               </div>
-              <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase">
+              <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
                 An innovative service for easy & Fast shipments
               </div>
               <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
                 orci id urna ultricies cursus quis eu augu
               </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="follow">
+        <div className="follow-bg">
+          <div className="bg-img h-[700px] relative">
+            <Image
+              src="/img/follow-bg.jpg"
+              alt="follow"
+              fill
+              className="object-cover"
+            />
+            <div className="follow-title absolute inset-0 flex flex-col items-center justify-center">
+              <h3 className="font-[syne,_sans-serif] xl:text-[69px] text-5xl font-extrabold uppercase lg:text-left text-center">
+                Follow your cargo&#96;s status
+              </h3>
             </div>
+          </div>
+          <div className="block_red flex lg:flex-row flex-col items-center justify-around bg-[#ff2c2c] w-full">
+            <div className="title_follow font-[syne,_sans-serif] xl:text-[23px] text-lg leading-[28px] font-bold tracking-[1px] uppercase ml-4">
+              UPDATED ROUTE SCHEDULE AND OTHER ESSENTIAL INFORMATIONS.
+            </div>
+            <Button
+              variant="outline"
+              className="bg-white text-[16px] font-bold text-[#ff2c2c] px-[45px] py-[30px] hover:bg-black hover:text-white uppercase my-7 rounded-none border-0 mr-4"
+            >
+              <Link href="/contact">Contact Us</Link>
+            </Button>
           </div>
         </div>
       </section>
