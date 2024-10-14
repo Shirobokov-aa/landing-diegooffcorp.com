@@ -1,10 +1,8 @@
 "use client";
-
+import Informations from "./Informations";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-// import { Mail } from "lucide-react";
-// import { Phone } from "lucide-react";
 
 function Main() {
   return (
@@ -35,7 +33,7 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="tizer max-w-[1500px] mx-auto px-[50px] flex md:flex-row text-center flex-col justify-between items-center pt-[100px] pb-[100px]">
+      <section className="tizer max-w-[1440px] mx-auto px-5 flex md:flex-row text-center flex-col justify-between items-center pt-[100px] pb-[100px]">
         <div className="tizer_item max-w-[33%] flex flex-col items-center">
           <div className="title_tizer text-5xl tracking-[3px] font-bold">
             1500000
@@ -134,7 +132,7 @@ function Main() {
         </div>
       </section>
       <section className="office pt-[50px] ">
-        <div className="bg-office maw-w-[1500px] mx-auto lg:px-[50px] px-[0px] relative">
+        <div className="bg-office max-w-[1440px] mx-auto lg:px-5 px-[0px] relative">
           <div className="bg-img lg:h-[1000px] h-[500px] relative">
             <Image
               src="/img/bg-office.jpg"
@@ -156,7 +154,7 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="news max-w-[1500px] mx-auto lg:px-[50px] px-4 pt-[50px] pb-[100px]">
+      <section className="news max-w-[1440px] mx-auto px-4 pt-[50px] pb-[100px]">
         <div className=" flex lg:flex-row flex-col lg:justify-between items-center w-full">
           <div className="news_left ">
             <div className="news_title font-[syne,_sans-serif] text-[42px] leading-[51px] font-extrabold tracking-[3px] uppercase">
@@ -230,17 +228,7 @@ function Main() {
               </h3>
             </div>
           </div>
-          <div className="block_red flex lg:flex-row flex-col items-center justify-around bg-[#ff2c2c] w-full">
-            <div className="title_follow font-[syne,_sans-serif] xl:text-[23px] text-lg leading-[28px] font-bold tracking-[1px] uppercase ml-4">
-              UPDATED ROUTE SCHEDULE AND OTHER ESSENTIAL INFORMATIONS.
-            </div>
-            <Button
-              variant="outline"
-              className="bg-white text-[16px] font-bold text-[#ff2c2c] px-[45px] py-[30px] hover:bg-black hover:text-white uppercase my-7 rounded-none border-0 mr-4"
-            >
-              <Link href="/contact">Contact Us</Link>
-            </Button>
-          </div>
+          <Informations />
         </div>
       </section>
     </main>

@@ -1,20 +1,17 @@
 "use client";
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-// import { Mail } from "lucide-react";
-// import { Phone } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="footer max-w-[1500px] mx-auto px-[50px] lg:pt-24 pt-10 pb-20">
+    <footer className="footer max-w-[1440px] mx-auto px-5 lg:pt-24 pt-10 pb-20">
       <div className="footer_container flex lg:flex-row flex-col">
         <div className="footer_block-1 lg:w-1/3 w-full">
           <div className="footer_logo">
-            <div className="logo">
+            <Link href="/" className="logo">
               <Image src="/img/logo.svg" alt="logo" width={135} height={45} />
-            </div>
+            </Link>
           </div>
         </div>
         <div className="footer_block-2 lg:w-1/3 w-full lg:pt-0 pt-10">
