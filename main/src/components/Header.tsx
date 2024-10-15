@@ -18,16 +18,16 @@ function Header() {
         </Link>
         <div className="flex items-center w-full max-w-[209px] lg:max-w-4xl p-10  bg-[#ff2c2c] justify-center lg:justify-end">
           <ul className="lg:flex lg:space-x-4 hidden text-right">
-            <li className="text-[white] font-bold leading-[140%] tracking-[3px] uppercase hover:text-[black] px-[50px]">
+            <li className="text-[white] font-bold leading-[140%] xl:tracking-[3px] tracking-[0px] uppercase hover:text-[black] px-[50px]">
               <Link href="/">Home</Link>
             </li>
-            <li className="text-[white] font-bold leading-[140%] tracking-[3px] uppercase hover:text-[black] px-[50px]">
+            <li className="text-[white] font-bold leading-[140%] xl:tracking-[3px] tracking-[0px] uppercase hover:text-[black] px-[50px]">
               <Link href="/about">About Us</Link>
             </li>
-            <li className="text-[white] font-bold leading-[140%] tracking-[3px] uppercase hover:text-[black] px-[50px]">
+            <li className="text-[white] font-bold leading-[140%] xl:tracking-[3px] tracking-[0px] uppercase hover:text-[black] px-[50px]">
               <Link href="/contact">Contact Us</Link>
             </li>
-            <li className="text-[white] font-bold leading-[140%] tracking-[3px] uppercase hover:text-[black] px-[50px]">
+            <li className="text-[white] font-bold leading-[140%] xl:tracking-[3px] tracking-[0px] uppercase hover:text-[black] px-[50px]">
               <Link href="/news">News</Link>
             </li>
           </ul>
