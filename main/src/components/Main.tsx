@@ -48,7 +48,12 @@ function Main() {
       <section>
         <div className="flex w-full h-[800px]">
           <div className="relative lg:w-[70%] w-full h-full">
-            <Image src="/img/bg-tizer-1.jpg" alt="banner" fill className="" />
+            <Image
+              src="/img/bg-tizer-1.jpg"
+              alt="banner"
+              fill
+              className="-z-50"
+            />
             <div className="inset-0 flex">
               <div className="w-[80%] mx-auto h-[2px] bg-[#ff2c2c] lg:mt-52 mt-10">
                 <div className="lg:grid-cols-3 grid-cols-1 gap-6 mt-10">
