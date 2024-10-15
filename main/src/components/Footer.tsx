@@ -5,17 +5,17 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="footer max-w-[1440px] mx-auto px-5 lg:pt-24 pt-10 pb-20">
-      <div className="footer_container flex lg:flex-row flex-col">
-        <div className="footer_block-1 lg:w-1/3 w-full">
-          <div className="footer_logo">
-            <Link href="/" className="logo">
+    <footer className="max-w-[1440px] mx-auto px-5 lg:pt-24 pt-10 pb-20">
+      <div className="flex lg:flex-row flex-col">
+        <div className="lg:w-1/3 w-full">
+          <div>
+            <Link href="/">
               <Image src="/img/logo.svg" alt="logo" width={135} height={45} />
             </Link>
           </div>
         </div>
-        <div className="footer_block-2 lg:w-1/3 w-full lg:pt-0 pt-10">
-          <div className="footer_title font-[syne,_sans-serif] text-[16px] tracking-[1px] leading-[22px] font-bold uppercase">
+        <div className="lg:w-1/3 w-full lg:pt-0 pt-10">
+          <div className="font-[syne,_sans-serif] text-[16px] tracking-[1px] leading-[22px] font-bold uppercase">
             Useful links
           </div>
           <ul className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] pt-4">
@@ -33,8 +33,8 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="footer_block-3 lg:w-1/3 w-full lg:pt-0 pt-10">
-          <div className="footer_desk">
+        <div className="lg:w-1/3 w-full lg:pt-0 pt-10">
+          <div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
             voluptate soluta harum, nemo saepe inventore eveniet praesentium
             tenetur consectetur dolores fuga excepturi veniam earum quos error

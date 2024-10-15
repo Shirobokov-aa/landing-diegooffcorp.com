@@ -36,7 +36,7 @@ function Header() {
               <DropdownMenuTrigger className="uppercase font-bold">
                 Menu
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="conten w-52 flex flex-col font-mulish bg-[#1c1c1c] rounded-[0%] border-[#ff2c2c]">
+              <DropdownMenuContent className="w-52 flex flex-col font-mulish bg-[#1c1c1c] rounded-[0%] border-[#ff2c2c]">
                 <DropdownMenuItem>
                   <Link href="/" className="text-[#ff2c2c] font-bold">
                     Home

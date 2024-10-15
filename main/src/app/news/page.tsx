@@ -8,21 +8,21 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="news_container max-w-[1440px] mx-auto px-5">
-        <div className="news_left pt-[200px]">
-          <div className="news_title font-[syne,_sans-serif] text-[42px] leading-[51px] font-extrabold tracking-[3px] uppercase">
+      <section className="max-w-[1440px] mx-auto px-5">
+        <div className="pt-[200px]">
+          <div className="font-[syne,_sans-serif] text-[42px] leading-[51px] font-extrabold tracking-[3px] uppercase">
             Latest News
           </div>
           <div className="flex items-center justify-center">
-            <div className="news_subtitle font-[work_sans,_sans-serif] text-[23px] leading-[27px]">
+            <div className="font-[work_sans,_sans-serif] text-[23px] leading-[27px]">
               Find out what is our expertise
             </div>
-            <div className="news_line w-[50px] mx-auto h-[3px] bg-[#ff2c2c] ml-5 xl:block hidden"></div>
+            <div className="w-[50px] mx-auto h-[3px] bg-[#ff2c2c] ml-5 xl:block hidden"></div>
           </div>
         </div>
-        <div className="news_top flex lg:flex-row flex-col pt-20">
-          <div className="news-item lg:max-w-[33%] w-full mr-10 group">
-            <div className="news_img ">
+        <div className="flex lg:flex-row flex-col pt-20">
+          <div className="lg:max-w-[33%] w-full mr-10 group">
+            <div>
               <Image
                 src="/img/news-1.jpg"
                 alt="news"
@@ -31,18 +31,18 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               SkyCargo marks key freighter anniversaries
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>
           </div>
-          <div className="news-item lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
+          <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
             <div className="news_img ">
               <Image
                 src="/img/news-2.jpg"
@@ -52,19 +52,19 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               Transportation coordinated by qualified staff
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>
           </div>
-          <div className="news-item lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
-            <div className="news_img ">
+          <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
+            <div>
               <Image
                 src="/img/news-3.jpg"
                 alt="news"
@@ -73,22 +73,22 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               An innovative service for easy & Fast shipments
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>
           </div>
         </div>
-        <div className="mews_centr flex w-full py-20">
+        <div className="flex w-full py-20">
           <div className="w-full">
-            <div className="news-item lg:mr-10 mr-0 flex lg:flex-row flex-col group">
-              <div className="news_img lg:max-w-[50%] w-full">
+            <div className="lg:mr-10 mr-0 flex lg:flex-row flex-col group">
+              <div className="lg:max-w-[50%] w-full">
                 <Image
                   src="/img/news-4.jpg"
                   alt="news"
@@ -98,13 +98,13 @@ export default function Home() {
                 />
               </div>
               <div className="lg:max-w-[50%] w-full lg:pl-20 pl-0">
-                <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+                <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
                   11 May, 2021
                 </div>
-                <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+                <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
                   SkyCargo marks key freighter anniversaries
                 </div>
-                <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+                <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
                   orci id urna ultricies cursus quis eu augu
                 </div>
@@ -112,9 +112,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="news_bottom flex lg:flex-row flex-col pb-20">
-          <div className="news-item lg:max-w-[33%] w-full mr-10 group">
-            <div className="news_img ">
+        <div className="flex lg:flex-row flex-col pb-20">
+          <div className="lg:max-w-[33%] w-full mr-10 group">
+            <div>
               <Image
                 src="/img/news-5.jpg"
                 alt="news"
@@ -123,19 +123,19 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               SkyCargo marks key freighter anniversaries
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>
           </div>
-          <div className="news-item lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
-            <div className="news_img ">
+          <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
+            <div>
               <Image
                 src="/img/news-6.jpg"
                 alt="news"
@@ -144,19 +144,19 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               Transportation coordinated by qualified staff
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>
           </div>
-          <div className="news-item lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
-            <div className="news_img ">
+          <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
+            <div>
               <Image
                 src="/img/news-7.jpg"
                 alt="news"
@@ -165,13 +165,13 @@ export default function Home() {
                 className="object-cover filter grayscale group-hover:filter-none transition-all duration-300"
               />
             </div>
-            <div className="news_date py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
+            <div className="py-[20px] font-['Work_Sans',_sans-serif] text-[16px] leading-[22px]">
               11 May, 2021
             </div>
-            <div className="news_title font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
+            <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
               An innovative service for easy & Fast shipments
             </div>
-            <div className="news_desc font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
+            <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
               orci id urna ultricies cursus quis eu augu
             </div>

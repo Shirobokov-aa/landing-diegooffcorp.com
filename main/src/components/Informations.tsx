@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 function Informations() {
   return (
-    <div className="block_red flex lg:flex-row flex-col items-center justify-around bg-[#ff2c2c] w-full">
-      <div className="title_follow font-[syne,_sans-serif] xl:text-[23px] text-lg leading-[28px] font-bold tracking-[1px] uppercase ml-4">
+    <div className="flex lg:flex-row flex-col items-center justify-around bg-[#ff2c2c] w-full">
+      <div className="font-[syne,_sans-serif] xl:text-[23px] text-lg leading-[28px] font-bold tracking-[1px] uppercase ml-4">
         UPDATED ROUTE SCHEDULE AND OTHER ESSENTIAL INFORMATIONS.
       </div>
       <Button

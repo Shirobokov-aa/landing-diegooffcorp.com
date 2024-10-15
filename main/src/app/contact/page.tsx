@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="about_container px-5 overflow-hidden">
-        <div className="bg_banner relative w-screen h-screen -z-100 -top-32 -left-5">
+      <section className="px-5 overflow-hidden">
+        <div className="relative w-screen h-screen -z-100 -top-32 -left-5">
           <div>
             <Image
               src="/img/bg-office.jpg"
@@ -19,16 +19,16 @@ export default function Home() {
               className="object-cover"
             />
           </div>
-          <div className="desck absolute inset-0 flex items-center justify-center">
-            <div className="title md:text-8xl text-2xl tracking-[10px] font-bold mb-4 uppercase">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="md:text-8xl text-2xl tracking-[10px] font-bold mb-4 uppercase">
               Contact Us
             </div>
           </div>
         </div>
-        <div className="block_top flex lg:flex-row lg:items-center lg:justify-center flex-col -mt-[100px] pb-20">
-          <div className="item_left lg:max-w-[50%] w-full">
-            <div className="bg_item lg:max-w-80 w-full">
-              <div className="contact-desc">
+        <div className="flex lg:flex-row lg:items-center lg:justify-center flex-col -mt-[100px] pb-20">
+          <div className="lg:max-w-[50%] w-full">
+            <div className="lg:max-w-80 w-full">
+              <div>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
@@ -37,7 +37,7 @@ export default function Home() {
                   quia voluptas sit aspernatur aut
                 </p>
               </div>
-              <div className="contact-adres flex pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px]">
+              <div className="flex pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px]">
                 <span>
                   <Image
                     src="/img/location.svg"
@@ -51,7 +51,7 @@ export default function Home() {
                   10220 united kingdom
                 </span>
               </div>
-              <div className="contact-mail pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px] hover:text-[#ff2c2c]">
+              <div className="pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px] hover:text-[#ff2c2c]">
                 <Link href="mailto:bridge@example.com" className="flex">
                   <span>
                     <Image
@@ -65,7 +65,7 @@ export default function Home() {
                   <span className="pl-2">bridge@example.com</span>
                 </Link>
               </div>
-              <div className="contact-phone pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px] hover:text-[#ff2c2c]">
+              <div className="pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px] hover:text-[#ff2c2c]">
                 <Link href="tel:+17788889999" className="flex">
                   {" "}
                   <span>
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="item_right lg:pt-0 pt-10">
+          <div className="lg:pt-0 pt-10">
             <div className="bg-img ">
               <Image
                 src="/img/news-3.jpg"
