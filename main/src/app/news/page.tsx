@@ -24,7 +24,7 @@ export default function Home() {
           <div className="lg:max-w-[33%] w-full mr-10 group">
             <div>
               <Image
-                src="/img/news-1.jpg"
+                src="/img/news-3.jpg"
                 alt="news"
                 width={500}
                 height={300}
@@ -38,8 +38,10 @@ export default function Home() {
               SkyCargo marks key freighter anniversaries
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              SkyCargo celebrates significant milestones in its freighter
+              operations, showcasing its commitment to enhancing global
+              logistics and providing reliable air cargo solutions for customers
+              worldwide.
             </div>
           </div>
           <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
@@ -56,17 +58,18 @@ export default function Home() {
               11 May, 2021
             </div>
             <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
-              Transportation coordinated by qualified staff
+              Global logistics unleashed
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              Explore how our international logistics company streamlines
+              shipping processes, ensuring timely delivery and unmatched
+              reliability for businesses across the globe.
             </div>
           </div>
           <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
             <div>
               <Image
-                src="/img/news-3.jpg"
+                src="/img/news-1.jpg"
                 alt="news"
                 width={500}
                 height={300}
@@ -80,8 +83,9 @@ export default function Home() {
               An innovative service for easy & Fast shipments
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              Experience our innovative service designed for quick and
+              hassle-free shipments, ensuring your products reach their
+              destination efficiently and safely.
             </div>
           </div>
         </div>
@@ -102,11 +106,13 @@ export default function Home() {
                   11 May, 2021
                 </div>
                 <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
-                  SkyCargo marks key freighter anniversaries
+                  Expert Guidance for International Shipping Success
                 </div>
                 <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-                  orci id urna ultricies cursus quis eu augu
+                  Our experienced professionals provide expert guidance in
+                  navigating international shipping regulations and processes,
+                  ensuring your goods are transported efficiently and
+                  compliantly worldwide.
                 </div>
               </div>
             </div>
@@ -127,11 +133,12 @@ export default function Home() {
               11 May, 2021
             </div>
             <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
-              SkyCargo marks key freighter anniversaries
+              Efficient Logistics Solutions Tailored to Your Needs
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              Our logistics team crafts personalized transportation strategies
+              to optimize your supply chain, ensuring timely delivery and
+              seamless coordination throughout the shipping process.
             </div>
           </div>
           <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
@@ -151,8 +158,9 @@ export default function Home() {
               Transportation coordinated by qualified staff
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              Our transportation services are expertly managed by qualified
+              staff, ensuring efficient logistics solutions that meet your needs
+              while prioritizing safety and reliability in every shipment.
             </div>
           </div>
           <div className="lg:max-w-[33%] lg:pt-0 pt-10 w-full mr-10 group">
@@ -169,11 +177,12 @@ export default function Home() {
               11 May, 2021
             </div>
             <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
-              An innovative service for easy & Fast shipments
+              Reliable Freight Management for Global Shipping
             </div>
             <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-              orci id urna ultricies cursus quis eu augu
+              We offer dependable freight management services, handling
+              everything from documentation to delivery, guaranteeing your cargo
+              reaches its destination safely and on schedule.
             </div>
           </div>
         </div>

@@ -55,65 +55,75 @@ function Main() {
               className="-z-50"
             />
             <div className="inset-0 flex">
-              <div className="w-[80%] mx-auto h-[2px] bg-[#ff2c2c] lg:mt-52 mt-10">
-                <div className="lg:grid-cols-3 grid-cols-1 gap-6 mt-10">
+              <div className="lg:w-[80%] w-full mx-auto h-[2px] bg-[#ff2c2c] lg:mt-52 mt-2">
+                <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 mt-5">
                   <div className="flex">
                     <div className="text-[#ff2c2c]">01</div>
                     <div className="pl-2 font-[syne,_sans-serif] lg:text-[19px] text-[16px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">Global Reach</span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        Our extensive network connects businesses across
+                        continents, ensuring seamless transportation and
+                        delivery to any destination worldwide.
                       </div>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="text-[#ff2c2c]">02</div>
                     <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">Timely Delivery</span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        We prioritize efficiency and reliability, utilizing
+                        advanced tracking systems to guarantee your shipments
+                        arrive on time.
                       </div>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="text-[#ff2c2c]">03</div>
                     <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">
+                        Specialized Food Logistics
+                      </span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        We ensure the safe and efficient delivery of food
+                        products and equipment, adhering to strict safety and
+                        quality standards to maintain freshness and compliance
+                        throughout the supply chain.
                       </div>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="text-[#ff2c2c]">04</div>
                     <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">Customized solutions</span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        We offer customized logistics solutions to meet your
+                        specific needs, including temperature-controlled
+                        transportation and more.
                       </div>
                     </div>
                   </div>
                   <div className="flex">
                     <div className="text-[#ff2c2c]">05</div>
                     <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">Cost-Effective Services</span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        By optimizing our logistics processes, we provide
+                        competitive pricing without compromising on quality,
+                        helping you save money while enhancing service levels.
                       </div>
                     </div>
                   </div>
-                  <div className="flex">
+                  <div className="lg:flex hidden">
                     <div className="text-[#ff2c2c]">06</div>
                     <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                      <span className="font-bold">Reliable</span>
+                      <span className="font-bold">Expert Support</span>
                       <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ut eli
+                        Our team of logistics professionals is available 24/7 to
+                        assist you with any inquiries, ensuring smooth
+                        communication and support throughout the shipping
+                        process.
                       </div>
                     </div>
                   </div>
@@ -180,8 +190,9 @@ function Main() {
                 An innovative service for easy & Fast shipments
               </div>
               <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-                orci id urna ultricies cursus quis eu augu
+                Experience our innovative service designed for quick and
+                hassle-free shipments, ensuring your products reach their
+                destination efficiently and safely.
               </div>
             </Link>
             <Link href="/news" className="max-w-[335px] mr-10 group">
@@ -198,11 +209,12 @@ function Main() {
                 11 May, 2021
               </div>
               <div className="font-[syne,_sans-serif] text-[19px] leading-[26px] font-bold tracking-[1px] uppercase group-hover:text-[#ff2c2c] transition-all duration-300">
-                An innovative service for easy & Fast shipments
+                Global logistics unleashed
               </div>
               <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] mt-[20px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac
-                orci id urna ultricies cursus quis eu augu
+                Explore how our international logistics company streamlines
+                shipping processes, ensuring timely delivery and unmatched
+                reliability for businesses across the globe.
               </div>
             </Link>
           </div>

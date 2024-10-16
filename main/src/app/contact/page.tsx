@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Header />
       <section className="px-5 overflow-hidden">
-        <div className="relative w-screen h-screen -z-100 -top-32 -left-5">
+        <div className="relative w-screen h-screen -z-100 -top-36 -left-5">
           <div>
             <Image
               src="/img/bg-office.jpg"
@@ -25,17 +25,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex lg:flex-row lg:items-center lg:justify-center flex-col -mt-[100px] pb-20">
+        <div className=" max-w-7xl mx-auto flex lg:flex-row lg:items-center lg:justify-center flex-col -mt-[200px] pb-20">
           <div className="lg:max-w-[50%] w-full">
             <div className="lg:max-w-80 w-full">
               <div>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut
-                </p>
+                {/* <p>
+                  We’re here to assist you! Whether you have questions about our
+                  services, need support, or want to learn more about our
+                  logistics solutions, feel free to reach out. Our dedicated
+                  team is ready to help you navigate your shipping needs.
+                </p> */}
               </div>
               <div className="flex pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px]">
                 <span>

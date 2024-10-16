@@ -27,9 +27,6 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto px-5">
           <div className="flex lg:flex-row flex-col ">
             <div className="lg:max-w-[50%] w-full">
-              <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                Doloremque laudantium, totam rem aperiam, eaque ipsa
-              </div>
               <ul>
                 <li className="flex items-center text-[#ffffff] font-[Syne] text-[15px] tracking-[1.7px] font-bold p-2">
                   <span className="w-[10px] h-[10px] top-[8px] rounded-[25px] bg-[#FF2C2C] mr-2"></span>
@@ -56,23 +53,23 @@ export default function Home() {
             <div className="lg:max-w-[50%] w-full">
               <div>
                 <p className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                  nostrum exercitationem ullam corporis suscipit laboriosam,
-                  nisi ut aliquid ex ea commodi consequatur?
-                </p>
-                <p className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] pt-6">
-                  Quis autem vel eum iure reprehenderit qui adipisci velit, sed
-                  quia non numquam eius modi tempora incidunt ut labore et
-                  dolore magnam aliquam quaerat voluptatem.
+                  At our international logistics company, we pride ourselves on
+                  providing comprehensive services that encompass every aspect
+                  of the shipping process. Our expert packaging solutions ensure
+                  that your products are secured and protected for transit,
+                  minimizing the risk of damage. We also specialize in handling,
+                  employing skilled personnel and advanced equipment to ensure
+                  your goods are managed with utmost care throughout the
+                  shipping journey. Our efficient transportation services
+                  guarantee timely delivery across global destinations,
+                  leveraging a robust network of transportation modes. To
+                  further safeguard your shipments, we offer marine insurance,
+                  providing peace of mind against unforeseen events at sea.
+                  Additionally, our experienced team handles custom brokerage,
+                  streamlining the import and export processes to ensure
+                  compliance with international regulations. Together, these
+                  services make us a trusted partner in global logistics,
+                  committed to delivering excellence at every stage.
                 </p>
               </div>
             </div>
@@ -93,30 +90,33 @@ export default function Home() {
               <div className="flex">
                 <div className="text-[#ff2c2c]">01</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Global Reach</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    Our extensive network connects businesses across continents,
+                    ensuring seamless transportation and delivery to any
+                    destination worldwide.
                   </div>
                 </div>
               </div>
               <div className="flex py-4">
                 <div className="text-[#ff2c2c]">02</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Timely Delivery</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    We prioritize efficiency and reliability, utilizing advanced
+                    tracking systems to guarantee your shipments arrive on time.
                   </div>
                 </div>
               </div>
               <div className="flex">
                 <div className="text-[#ff2c2c]">03</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Specialized Food Logistics</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    We ensure the safe and efficient delivery of food products
+                    and equipment, adhering to strict safety and quality
+                    standards to maintain freshness and compliance throughout
+                    the supply chain.
                   </div>
                 </div>
               </div>
@@ -147,32 +147,35 @@ export default function Home() {
             </div>
             <div className="lg:max-w-[50%] w-full lg:pl-10 pl-0 lg:pt-0 pt-10">
               <div className="flex">
-                <div className="text-[#ff2c2c]">01</div>
+                <div className="text-[#ff2c2c]">04</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Customized solutions</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    We offer customized logistics solutions to meet your
+                    specific needs, including temperature-controlled
+                    transportation and more.
                   </div>
                 </div>
               </div>
               <div className="flex py-4">
-                <div className="text-[#ff2c2c]">02</div>
+                <div className="text-[#ff2c2c]">05</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Cost-Effective Services</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    By optimizing our logistics processes, we provide
+                    competitive pricing without compromising on quality, helping
+                    you save money while enhancing service levels.
                   </div>
                 </div>
               </div>
               <div className="flex">
-                <div className="text-[#ff2c2c]">03</div>
+                <div className="text-[#ff2c2c]">06</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Reliable</span>
+                  <span className="font-bold">Expert Support</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    eli
+                    Our team of logistics professionals is available 24/7 to
+                    assist you with any inquiries, ensuring smooth communication
+                    and support throughout the shipping process.
                   </div>
                 </div>
               </div>

@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 function Footer() {
@@ -15,37 +14,71 @@ function Footer() {
           </div>
         </div>
         <div className="lg:w-1/3 w-full lg:pt-0 pt-10">
-          <div className="font-[syne,_sans-serif] text-[16px] tracking-[1px] leading-[22px] font-bold uppercase">
+          <div className="font-[syne,_sans-serif] text-[20px] tracking-[1px] leading-[22px] font-bold uppercase">
             Useful links
           </div>
           <ul className="font-[work_sans,_sans-serif] text-[16px] leading-[22px] pt-4">
-            <li className="hover:text-[#ff2c2c]">
+            <li className="hover:text-[#ff2c2c] font-bold uppercase">
               <Link href="/">Home</Link>
             </li>
-            <li className="py-2 hover:text-[#ff2c2c]">
+            <li className="py-2 hover:text-[#ff2c2c] font-bold uppercase">
               <Link href="/about">About Us</Link>
             </li>
-            <li className="hover:text-[#ff2c2c]">
+            <li className="hover:text-[#ff2c2c] font-bold uppercase">
               <Link href="/contact">Contact Us</Link>
             </li>
-            <li className="pt-2 hover:text-[#ff2c2c]">
+            <li className="pt-2 hover:text-[#ff2c2c] font-bold uppercase">
               <Link href="/news">News</Link>
             </li>
           </ul>
         </div>
         <div className="lg:w-1/3 w-full lg:pt-0 pt-10">
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-            voluptate soluta harum, nemo saepe inventore eveniet praesentium
-            tenetur consectetur dolores fuga excepturi veniam earum quos error
-            sapiente deserunt libero animi.
+          <div className="font-[syne,_sans-serif] text-[20px] tracking-[1px] leading-[22px] font-bold uppercase">
+            address
           </div>
-          <Button
-            variant="outline"
-            className="bg-[#ff2c2c] text-[16px] font-bold text-white px-[45px] py-[30px] hover:bg-white hover:text-black uppercase mt-5 rounded-none border-0"
-          >
-            <Link href="/contact">Contact Us</Link>
-          </Button>
+          <div className="flex pt-4 font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
+            <span>
+              <Image
+                src="/img/location.svg"
+                alt="phone"
+                width={24}
+                height={24}
+              />
+            </span>
+            <span className="pl-2 w-full">
+              54/6 Soi street 29 (birminghem), Somei district, birminghem 10220
+              united kingdom
+            </span>
+          </div>
+          <div className="py-2 font-[work_sans,_sans-serif] text-[16px] leading-[22px] hover:text-[#ff2c2c]">
+            <Link href="mailto:bridge@example.com" className="flex">
+              <span>
+                <Image
+                  src="/img/mail.svg"
+                  alt="phone"
+                  width={24}
+                  height={24}
+                  className="object-cover"
+                />
+              </span>
+              <span className="pl-2">bridge@example.com</span>
+            </Link>
+          </div>
+          <div className="py-2 font-[work_sans,_sans-serif] text-[16px] leading-[22px] hover:text-[#ff2c2c]">
+            <Link href="tel:+17788889999" className="flex">
+              {" "}
+              <span>
+                <Image
+                  src="/img/phone.svg"
+                  alt="phone"
+                  width={24}
+                  height={24}
+                  className="object-cover"
+                />
+              </span>
+              <span className="pl-2">177 - 88- 89- 99</span>
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
