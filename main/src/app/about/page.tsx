@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="lg:max-w-[50%] w-full">
               <div>
-                <p className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
+                <p className="font-[syne,_sans-serif] text-[16px] leading-[22px]">
                   At our international logistics company, we pride ourselves on
                   providing comprehensive services that encompass every aspect
                   of the shipping process. Our expert packaging solutions ensure
