@@ -45,7 +45,7 @@ export default function Home() {
                     height={24}
                   />
                 </span>
-                <span className="pl-2 w-full">
+                <span className="pl-2 w-full z-10">
                   54/6 Soi street 29 (birminghem), Somei district, birminghem
                   10220 united kingdom
                 </span>
