@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="lg:max-w-[50%] w-full">
               <div>
-                <p className="font-[syne,_sans-serif] text-[16px] leading-[22px]">
+                <p className="font-[syne,_sans-serif] text-[16px] leading-[22px] lg:pt-0 pt-10">
                   At our international logistics company, we pride ourselves on
                   providing comprehensive services that encompass every aspect
                   of the shipping process. Our expert packaging solutions ensure
@@ -85,8 +85,8 @@ export default function Home() {
               <div className="w-[50px] mx-auto h-[3px] bg-[#ff2c2c] ml-5 xl:block hidden"></div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col pt-20">
-            <div className="lg:max-w-[50%] w-full">
+          <div className="flex lg:flex-row lg:justify-between flex-col pt-20">
+            <div className="lg:max-w-[48%] px-4 w-full">
               <div className="flex">
                 <div className="text-[#ff2c2c]">01</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col pt-28 pb-20">
+          <div className="flex lg:flex-row lg:justify-between flex-col-reverse pt-10 pb-20">
             <div>
               <div>
                 <Image
@@ -145,7 +145,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="lg:max-w-[50%] w-full lg:pl-10 pl-0 lg:pt-0 pt-10">
+            <div className="lg:max-w-[48%] px-4 w-full">
               <div className="flex">
                 <div className="text-[#ff2c2c]">04</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
@@ -168,7 +168,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex">
+              <div className="flex pb-10">
                 <div className="text-[#ff2c2c]">06</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
                   <span className="font-bold">Expert Support</span>
