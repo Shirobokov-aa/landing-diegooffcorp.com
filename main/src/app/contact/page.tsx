@@ -28,16 +28,9 @@ export default function Home() {
         <div className=" max-w-7xl mx-auto flex lg:flex-row lg:items-center lg:justify-center flex-col -mt-[200px] pb-20">
           <div className="lg:max-w-[50%] w-full">
             <div className="lg:max-w-80 w-full">
-              <div>
-                {/* <p>
-                  We’re here to assist you! Whether you have questions about our
-                  services, need support, or want to learn more about our
-                  logistics solutions, feel free to reach out. Our dedicated
-                  team is ready to help you navigate your shipping needs.
-                </p> */}
-              </div>
+              <div></div>
               <div className="flex pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px]">
-                <span>
+                <span className="z-10">
                   <Image
                     src="/img/location.svg"
                     alt="phone"
