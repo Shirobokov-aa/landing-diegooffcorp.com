@@ -46,8 +46,7 @@ function Footer() {
               />
             </span>
             <span className="pl-2 w-full">
-              54/6 Soi street 29 (birminghem), Somei district, birminghem 10220
-              united kingdom
+            Hong Kong, Tuen Mun, 18 Tin Hai Road, Nan Fung Indastrial City, Unit 704C, 7/F, Block 3
             </span>
           </div>
           <div className="py-2 font-[work_sans,_sans-serif] text-[16px] leading-[22px] hover:text-[#ff2c2c]">

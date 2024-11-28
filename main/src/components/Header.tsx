@@ -3,11 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 function Header() {
   return (
@@ -32,33 +36,52 @@ function Header() {
             </li>
           </ul>
           <div className="lg:hidden ">
-            <DropdownMenu>
-              <DropdownMenuTrigger className="uppercase font-bold">
-                Menu
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-52 flex flex-col font-mulish bg-[#1c1c1c] rounded-[0%] border-[#ff2c2c]">
-                <DropdownMenuItem>
-                  <Link href="/" className="text-[#ff2c2c] font-bold">
-                    Home
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link href="/about" className="text-[#ff2c2c] font-bold">
-                    About Us
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link href="/contact" className="text-[#ff2c2c] font-bold">
-                    Contact Us
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link href="/news" className="text-[#ff2c2c] font-bold">
-                    News
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <Drawer>
+              <DrawerTrigger>
+                <div className="space-y-1">
+                  <span className="block w-5 h-0.5 bg-white"></span>
+                  <span className="block w-5 h-0.5 bg-white"></span>
+                  <span className="block w-5 h-0.5 bg-white"></span>
+                </div>
+              </DrawerTrigger>
+              <DrawerContent className="h-[70%] w-screen bg-black/70 border-none">
+                <DrawerHeader>
+                  <div className="text-left">
+                    <ul className="text-subH1 text-white uppercase">
+                      <div className="border-t relative -left-4 border-white w-full"></div>
+                      <li className="py-8 w-screen">
+                        <Link href={"/"}>Home</Link>
+                      </li>
+                      <div className="border-t relative -left-4 border-white w-full"></div>
+                      <li className="py-8 w-screen">
+                        <Link href={"/about"}>About Us</Link>
+                      </li>
+                      <div className="border-t relative -left-4 border-white w-full"></div>
+                      <li className="py-8 w-screen">
+                        <Link href={"/contact"}>Contact Us</Link>
+                      </li>
+                      <div className="border-t relative -left-4 border-white w-full"></div>
+                      <li className="py-8 w-screen">
+                        <Link href={"/news"}>News</Link>
+                      </li>
+                      <div className="border-t relative -left-4 border-white w-full"></div>
+                    </ul>
+                  </div>
+                  <DrawerTitle></DrawerTitle>
+                  <DrawerDescription></DrawerDescription>
+                </DrawerHeader>
+                <DrawerFooter>
+                  <DrawerClose asChild>
+                    <button className="outline-button">
+                      <div className="relative left-[46%] w-10 h-10 cursor-pointer ">
+                        <span className="absolute top-1/2 left-0 w-full h-1 bg-white transform -translate-y-1/2 rotate-45"></span>
+                        <span className="absolute top-1/2 left-0 w-full h-1 bg-white transform -translate-y-1/2 -rotate-45"></span>
+                      </div>
+                    </button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </DrawerContent>
+            </Drawer>
           </div>
         </div>
       </div>

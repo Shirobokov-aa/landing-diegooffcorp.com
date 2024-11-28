@@ -39,8 +39,7 @@ export default function Home() {
                   />
                 </span>
                 <span className="pl-2 w-full z-10">
-                  54/6 Soi street 29 (birminghem), Somei district, birminghem
-                  10220 united kingdom
+                Hong Kong, Tuen Mun, 18 Tin Hai Road, Nan Fung Indastrial City, Unit 704C, 7/F, Block 3
                 </span>
               </div>
               <div className="pt-5 font-[work_sans,_sans-serif] text-[20px] leading-[22px] hover:text-[#ff2c2c]">
