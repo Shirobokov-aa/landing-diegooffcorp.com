@@ -53,23 +53,7 @@ export default function Home() {
             <div className="lg:max-w-[50%] w-full">
               <div>
                 <p className="font-[syne,_sans-serif] text-[16px] leading-[22px] lg:pt-0 pt-10">
-                  At our international logistics company, we pride ourselves on
-                  providing comprehensive services that encompass every aspect
-                  of the shipping process. Our expert packaging solutions ensure
-                  that your products are secured and protected for transit,
-                  minimizing the risk of damage. We also specialize in handling,
-                  employing skilled personnel and advanced equipment to ensure
-                  your goods are managed with utmost care throughout the
-                  shipping journey. Our efficient transportation services
-                  guarantee timely delivery across global destinations,
-                  leveraging a robust network of transportation modes. To
-                  further safeguard your shipments, we offer marine insurance,
-                  providing peace of mind against unforeseen events at sea.
-                  Additionally, our experienced team handles custom brokerage,
-                  streamlining the import and export processes to ensure
-                  compliance with international regulations. Together, these
-                  services make us a trusted partner in global logistics,
-                  committed to delivering excellence at every stage.
+Founded in Indonesia, Diego Off Corp is a dynamic company dedicated to facilitating seamless trade and logistics. Our mission is to support businesses by providing access to high-quality products and efficient logistics solutions.
                 </p>
               </div>
             </div>
@@ -90,33 +74,27 @@ export default function Home() {
               <div className="flex">
                 <div className="text-[#ff2c2c]">01</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Global Reach</span>
+                  <span className="font-bold">Integrity:</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    Our extensive network connects businesses across continents,
-                    ensuring seamless transportation and delivery to any
-                    destination worldwide.
+                  Building trust through transparent and ethical practices.
                   </div>
                 </div>
               </div>
               <div className="flex py-4">
                 <div className="text-[#ff2c2c]">02</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Timely Delivery</span>
+                  <span className="font-bold">Innovation:</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    We prioritize efficiency and reliability, utilizing advanced
-                    tracking systems to guarantee your shipments arrive on time.
+                  Utilizing the latest technology to enhance operations.
                   </div>
                 </div>
               </div>
               <div className="flex">
                 <div className="text-[#ff2c2c]">03</div>
                 <div className="pl-2 font-[syne,_sans-serif] text-[19px] leading-[26px] not-italic tracking-[1px]">
-                  <span className="font-bold">Specialized Food Logistics</span>
+                  <span className="font-bold">Customer Satisfaction:</span>
                   <div className="font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
-                    We ensure the safe and efficient delivery of food products
-                    and equipment, adhering to strict safety and quality
-                    standards to maintain freshness and compliance throughout
-                    the supply chain.
+                  Prioritizing the success of our clients.
                   </div>
                 </div>
               </div>
