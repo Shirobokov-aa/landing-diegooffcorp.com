@@ -18,7 +18,7 @@ function Header() {
     <header className="relative z-20 max-w-[1440px] mx-auto px-5">
       <div className=" absolute left-1/2 transform -translate-x-1/2 z-10 w-full h-[100px] flex items-center justify-between pl-6 text-right">
         <Link href="/" className="logo">
-          <Image src="/img/logo.svg" alt="logo" width={135} height={45} />
+          <Image src="/img/logo.svg" alt="logo" width={200} height={75} />
         </Link>
         <div className="flex items-center w-full max-w-[209px] lg:max-w-4xl p-10  bg-[#ff2c2c] justify-center lg:justify-end">
           <ul className="lg:flex lg:space-x-4 hidden text-right">

@@ -9,7 +9,7 @@ function Footer() {
         <div className="lg:w-1/3 w-full">
           <div>
             <Link href="/">
-              <Image src="/img/logo.svg" alt="logo" width={135} height={45} />
+              <Image src="/img/logo.svg" alt="logo" width={200} height={75} />
             </Link>
           </div>
         </div>
@@ -38,33 +38,22 @@ function Footer() {
           </div>
           <div className="flex pt-4 font-[work_sans,_sans-serif] text-[16px] leading-[22px]">
             <span>
-              <Image
-                src="/img/location.svg"
-                alt="phone"
-                width={24}
-                height={24}
-              />
+              <Image src="/img/location.svg" alt="phone" width={24} height={24} />
             </span>
             <span className="pl-2 w-full">
-            Hong Kong, Tuen Mun, 18 Tin Hai Road, Nan Fung Indastrial City, Unit 704C, 7/F, Block 3
+              JALAN RATNA NOMOR 80, Desa/Kelurahan Tonja, Kec. Denpasar Utara, Kota Denpasar, Provinsi Bali
             </span>
           </div>
           <div className="py-2 font-[work_sans,_sans-serif] text-[16px] leading-[22px] hover:text-[#ff2c2c]">
             <Link href="mailto:bridge@example.com" className="flex">
               <span>
-                <Image
-                  src="/img/mail.svg"
-                  alt="phone"
-                  width={24}
-                  height={24}
-                  className="object-cover"
-                />
+                <Image src="/img/mail.svg" alt="phone" width={24} height={24} className="object-cover" />
               </span>
-              <span className="pl-2">bridge@example.com</span>
+              <span className="pl-2">info@diegooffcorp.com</span>
             </Link>
           </div>
           <div className="py-2 font-[work_sans,_sans-serif] text-[16px] leading-[22px] hover:text-[#ff2c2c]">
-            <Link href="tel:+17788889999" className="flex">
+            {/* <Link href="tel:+17788889999" className="flex">
               {" "}
               <span>
                 <Image
@@ -76,7 +65,7 @@ function Footer() {
                 />
               </span>
               <span className="pl-2">177 - 88- 89- 99</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
